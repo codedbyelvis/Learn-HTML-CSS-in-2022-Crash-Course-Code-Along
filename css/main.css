@@ -97,6 +97,7 @@ section.hero {
         position: absolute;
         bottom: 2em;
         width: 1em;
+        margin-bottom: 4em;
         animation: moveArrow 1s alternate-reverse infinite;
 
         >path {
@@ -138,6 +139,13 @@ section.hero {
     body {
         margin: 1.5em 5em;
         font-family: 'Poppins', sans-serif;
+    }
+
+    section.hero {
+
+        >.down-arrow {
+            margin-bottom: 6em;
+        }
     }
 }
 
@@ -202,6 +210,8 @@ section.hero {
         >.down-arrow {
             stroke: black;
             position: unset;
+            margin-top: 4em;
+            margin-bottom: 0;
 
             >path {
                 fill: black;
