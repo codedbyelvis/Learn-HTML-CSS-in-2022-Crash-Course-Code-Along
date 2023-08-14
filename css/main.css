@@ -114,6 +114,7 @@ section.hero {
             width: 100%;
             object-fit: cover;
             height: 11em;
+            margin-top: 1em;
         }
 
         >.content {
@@ -145,6 +146,15 @@ section.hero {
 
         >.down-arrow {
             margin-bottom: 6em;
+        }
+    }
+
+    .more-info {
+        >.feature {
+
+            >img {
+                height: 15em;
+            }
         }
     }
 }
@@ -226,9 +236,11 @@ section.hero {
             grid-template-columns: repeat(2, auto);
             gap: 3em;
             margin-bottom: 8em;
+            margin-left: 2em;
 
             >img {
                 width: 25em;
+                margin-top: 1.5em;
 
             }
 
@@ -239,6 +251,7 @@ section.hero {
         }
 
         >.feature.left {
+            margin-bottom: 5em;
             grid-template-areas:
                 "left" "right";
 
@@ -263,9 +276,21 @@ section.hero {
     }
 
     .more-info {
+        margin-top: 10em;
+        margin-left: 10em;
 
         .feature {
             gap: 0;
+
+            >img {
+                width: 36em;
+                height: 15em;
+            }
+
+            >.content {
+                width: 25em;
+                height: 15em;
+            }
         }
     }
 }
