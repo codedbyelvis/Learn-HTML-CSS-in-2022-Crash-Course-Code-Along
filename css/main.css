@@ -125,11 +125,12 @@ section.hero {
 
             >.title {
                 font-weight: bold;
-                font-size: 1.25em;
+                font-size: 1.5em;
             }
 
             >.desc {
-                line-height: 1.5rem;
+                font-size: 1.2em;
+                line-height: 1.7rem;
             }
         }
     }
@@ -158,6 +159,19 @@ section.hero {
             >img {
                 height: 15em;
             }
+
+            >.content {
+
+
+                >.title {
+                    font-size: 1.8em;
+                }
+
+                >.desc {
+                    font-size: 1.1em;
+                }
+            }
+
         }
     }
 }
@@ -243,13 +257,21 @@ section.hero {
 
             >img {
                 width: 25em;
-                margin-top: 1.5em;
-
             }
 
             >.content {
                 text-align: right;
                 width: 25em;
+                margin-top: .5em;
+
+                >.title {
+                    margin: 0;
+                }
+
+                >.desc {
+                    font-size: 1.3em;
+                    line-height: 1.55em;
+                }
             }
         }
 
@@ -282,6 +304,13 @@ section.hero {
         height: 95vh;
     }
 
+    section.hero {
+
+        >p {
+            font-size: 1.65em;
+        }
+    }
+
     .more-info {
         margin-top: 10em;
         margin-left: 10em;
@@ -297,6 +326,15 @@ section.hero {
             >.content {
                 width: 25em;
                 height: 15em;
+
+                >.title {
+                    font-size: 2em;
+                }
+
+                >.desc {
+                    font-size: 1.5em;
+                    line-height: 1.7em;
+                }
             }
         }
     }
