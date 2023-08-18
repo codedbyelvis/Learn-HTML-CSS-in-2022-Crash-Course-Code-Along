@@ -140,6 +140,58 @@ section.hero {
     transform: translateX(0);
 }
 
+@media only screen and (min-width: 360px) {
+    .more-info {
+
+        >.feature {
+
+            >img {
+                margin-left: 1em;
+                width: 90%;
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 400px) {
+    .more-info {
+
+        >.feature {
+
+            >img {
+                margin-left: 1.3em;
+                height: 13em;
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 500px) {
+    .more-info {
+
+        >.feature {
+
+            >img {
+                margin-left: 1.5em;
+                height: 15.5em;
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 560px) {
+    .more-info {
+
+        >.feature {
+
+            >img {
+                margin-left: 1.8em;
+                height: 17.5em;
+            }
+        }
+    }
+}
+
 @media only screen and (min-width: 680px) {
     body {
         margin: 1.5em 5em;
@@ -157,7 +209,7 @@ section.hero {
         >.feature {
 
             >img {
-                height: 15em;
+                height: 20em;
             }
 
             >.content {
@@ -253,10 +305,11 @@ section.hero {
             grid-template-columns: repeat(2, auto);
             gap: 3em;
             margin-bottom: 8em;
-            margin-left: 2em;
+            /* margin-left: 2em; */
 
             >img {
                 width: 25em;
+                margin-left: 0;
             }
 
             >.content {
@@ -306,8 +359,18 @@ section.hero {
 
     section.hero {
 
+        >h1 {
+            font-size: 4.5em;
+            line-height: 1.2em;
+            margin-top: 1em;
+        }
+
         >p {
-            font-size: 1.65em;
+            font-size: 2em;
+        }
+
+        >.down-arrow {
+            margin-top: 0;
         }
     }
 
@@ -317,22 +380,23 @@ section.hero {
 
         .feature {
             gap: 0;
+            margin-left: -1.5em;
 
             >img {
                 width: 36em;
-                height: 15em;
+                height: 20em;
             }
 
             >.content {
                 width: 25em;
-                height: 15em;
+                height: 20em;
 
                 >.title {
-                    font-size: 2em;
+                    font-size: 2.2em;
                 }
 
                 >.desc {
-                    font-size: 1.5em;
+                    font-size: 1.7em;
                     line-height: 1.7em;
                 }
             }
